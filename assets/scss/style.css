@@ -1,0 +1,185 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url(/assets/images/sativa.png);
+}
+
+header .navbar {
+  background-color: black;
+}
+
+header .navbar .container-fluid a {
+  color: white;
+  padding-left: 180px;
+}
+
+header .navbar ul {
+  padding-left: 1000px;
+}
+
+header .navbar ul li {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+}
+
+header .navbar ul li:hover {
+  color: white;
+}
+
+main #page {
+  background-color: #136b6e;
+  height: 700px;
+  overflow: hidden;
+}
+
+main #page .container .row .page-content {
+  color: white;
+  padding: 180px;
+}
+
+main #page .container .row .page-content h1 {
+  font-size: 90px;
+}
+
+main #page .container .row .page-content h3 {
+  font-size: 45px;
+  margin-top: 30px;
+}
+
+main #page .container .row .page-content p {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+main #page .container .row .page-content .btn {
+  border-radius: 0px;
+  margin-top: 20px;
+  background-color: #b6344a;
+  color: white;
+}
+
+main #page .container .row .page-content .btn:hover {
+  background-color: red;
+}
+
+main #services .container h1 {
+  color: #287375;
+  padding-top: 160PX;
+  margin-bottom: 80px;
+}
+
+main #services .container .row .col-lg-6 {
+  margin-bottom: 60px;
+}
+
+main #services .container .row .col-lg-6 .content h3 {
+  color: #635e5e;
+  font-weight: 20px;
+}
+
+main #services .container .row .col-lg-4 .card {
+  background-color: #136b6e;
+  height: 400px;
+}
+
+main #services .container .row .col-lg-4 .card .icon {
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+}
+
+main #services .container .row .col-lg-4 .card .icon i {
+  font-size: 80px;
+}
+
+main #services .container .row .col-lg-4 .card .card-content {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+
+main #services .container .row .col-lg-4 .card .card-content h6 {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+main #services .container .row .col-lg-4 .card .card-content p {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+main #services .container .row .col-lg-12 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+main #feature {
+  background-color: #136b6e;
+  height: 200px;
+}
+
+main #feature .container .row .fboxs {
+  padding-top: 40px;
+}
+
+main #feature .container .row .fboxs .col-content {
+  color: white;
+  padding-left: 150px;
+}
+
+main #feature .container .row .fboxs .col-content h5 {
+  padding-left: 90px;
+  margin-top: 60px;
+}
+
+main #feature .container .row .sboxs {
+  padding-top: 40px;
+}
+
+main #feature .container .row .sboxs .col-content {
+  color: white;
+}
+
+main #feature .container .row .sboxs .col-content h5 {
+  margin-top: 60px;
+}
+
+main #count {
+  background-color: #136b6e;
+  height: 200px;
+  margin-top: 70px;
+}
+
+main #count .container .row .col-3 {
+  padding-top: 40px;
+  color: white;
+}
+
+main #count .container .row .col-3 h5 {
+  margin-top: 20px;
+  padding-left: 18px;
+}
+
+main #contact .container h1 {
+  color: #287375;
+  padding-top: 160PX;
+  margin-bottom: 80px;
+  padding-left: 65px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 50px;
+}
+
+footer .text-end {
+  padding-top: 10px;
+  padding-right: 25px;
+}
+/*# sourceMappingURL=style.css.map */

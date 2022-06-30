@@ -1,0 +1,205 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/assets/images/sativa.png);
+}
+header{
+    .navbar{
+        background-color: black;
+        .container-fluid{
+            a{
+                color: white;
+                padding-left: 180px;
+               
+            }
+
+        }
+       
+        ul{
+            padding-left: 1000px;
+            li{
+                justify-content: space-between;
+                color: white;
+                &:hover{
+                    color: white;
+                }
+
+            }
+            
+        }
+    }
+
+}
+main{
+    #page{
+        background-color: rgb(19, 107, 110);
+        height: 700px;
+        overflow: hidden;
+        .container{
+            .row{
+                .page-content{
+                    color: white;
+                   padding: 180px;
+                   h1{
+                       font-size: 90px;
+
+                   }
+                   h3{
+                       font-size: 45px;
+                       margin-top: 30px;
+                   }
+                   p{
+                       font-size: 20px;
+                       margin-top: 30px;
+                     
+                   }
+                   .btn{
+                       border-radius: 0px;
+                       margin-top: 20px;
+                       background-color:  rgb(182, 52, 74);
+                       color: white;
+                       &:hover{
+                           background-color: red;
+                       }
+                   }
+                }
+            }
+        }
+    }
+    #services{
+       
+        .container{
+            h1{
+                color: rgb(40, 115, 117);
+                padding-top: 160PX;
+                margin-bottom: 80px;
+            }
+            .row{
+                .col-lg-6{
+                    margin-bottom: 60px;
+                   .content{
+                       h3{
+                           color: rgb(99, 94, 94);
+                           font-weight: 20px;
+                       }
+                   }
+                   
+                }
+            }
+            .row{
+                .col-lg-4{
+                    .card{
+                        background-color:rgb(19, 107, 110);
+                        height: 400px;
+
+                        .icon{
+                            text-align: center;
+                            color: white;
+                            padding-top: 50px;
+                           i{
+                           
+                            font-size: 80px;
+                           }
+
+                        }
+                        .card-content{
+                            color: white;
+                            text-align: center;
+                            margin-top: 30px;
+                            h6{
+                                margin-top: 30px;
+                                font-size: 14px;
+                            }
+                            p{
+                                margin-top: 30px;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+            .row{
+                .col-lg-12{
+                    margin-top: 80px;
+                    margin-bottom: 80px;
+                }
+            }
+        }
+    }
+    #feature{
+        background-color:rgb(19, 107, 110);
+        height: 200px;
+        .container{
+            .row{
+               
+                .fboxs{
+                    padding-top: 40px;
+                    .col-content{
+                        color: white;
+                        padding-left: 150px;
+                        h5{
+                            padding-left: 90px;
+                            margin-top: 60px;
+                        }
+                      
+                    }
+
+                }
+                .sboxs{
+                    padding-top: 40px;
+                    .col-content{
+                        color: white;
+                        h5{
+                            margin-top: 60px;
+                        }
+                    }
+                }
+                    
+               
+            }
+        }
+    }
+    #count{
+        background-color:rgb(19, 107, 110);
+        height: 200px;
+        margin-top: 70px;
+        .container{
+            .row{
+                .col-3{
+                    padding-top: 40px;
+                    color: white;
+                    h5{
+                        margin-top: 20px;
+                        padding-left:18px ;
+                    }
+
+                }
+            }
+        }
+
+    }
+    #contact{
+        .container{
+           
+            h1{
+                color: rgb(40, 115, 117);
+                padding-top: 160PX;
+                margin-bottom: 80px;
+                padding-left: 65px;
+            }
+           
+        }
+    }
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 50px;
+    .text-end{
+        padding-top: 10px;
+        padding-right: 25px;
+    }
+}
+   
